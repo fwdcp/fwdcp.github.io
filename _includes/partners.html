@@ -8,7 +8,7 @@
                     <div class="he-view">
                         <div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">{{ partner.name }}</h3>
-                            {% for entry in member.social %}
+                            {% for entry in partner.social %}
                                 <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
                             {% endfor %}
                         </div><!-- he bg -->
