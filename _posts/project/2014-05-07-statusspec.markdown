@@ -1,8 +1,8 @@
 ---
 layout: project       #important: don't change this
 title:  "StatusSpec"
-date: 2014-05-07 06:13:00
-author: thesupremecommander
+contributors:
+- thesupremecommander
 categories:
 - project             #important: leave this here
 # img: #place image (600x450) with this name in /assets/img/project/
