@@ -66,6 +66,19 @@ members:
         url: http://reddit.com/u/thesupremecommander
       - title: tumblr
         url: http://thesupremecmdr.tumblr.com
+  - name: uberchain
+    position: Artist & Animator
+    text: uberchain comes from a strong background of illustration and design with tenacity and enthusiasm - a zeal that contributes to their video editing, animation, and graphic design talents.
+    img: thesupremecommander.jpg
+    social:
+      - title: steam
+        url: http://steamcommunity.com/id/spameidareyou
+      - title: deviantart
+        url: http://uberchain.deviantart.com
+      - title: twitter
+        url: http://twitter.com/uberchain
+      - title: youtube
+        url: http://youtube.com/uberchainyt
 
 # Partners information. Shown on Home and About pages.
 partners:
