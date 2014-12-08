@@ -30,6 +30,12 @@ social:
     url: http://steamcommunity.com/groups/fwdcp
   - title: github
     url: http://github.com/fwdcp
+  - title: paypal
+    url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZJAZP9L4A6RHJ
+  - title: github
+    url: http://github.com/fwdcp
+  - title: github
+    url: http://github.com/fwdcp
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 # address:
