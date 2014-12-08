@@ -74,14 +74,6 @@ partners:
     social:
       - title: external-link
         url: http://teamfortress.tv
-      - title: twitter
-        url: http://twitter.com/teamfortresstv
-      - title: youtube
-        url: http://youtube.com/user/TeamFortressTV
-      - title: twitch
-        url: http://twitch.tv/teamfortresstv
-      - title: steam
-        url: http://steamcommunity.com/groups/TeamFortressTV
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Forward Command Post is a group dedicated to improving the gaming experience, currently focused on Team Fortress 2."
