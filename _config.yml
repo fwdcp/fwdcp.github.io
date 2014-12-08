@@ -62,6 +62,10 @@ members:
         url: http://twitch.tv/thesupremecommander
       - title: youtube
         url: http://youtube.com/Commanderofallarmies
+      - title: reddit
+        url: http://reddit.com/u/thesupremecommander
+      - title: tumblr
+        url: http://thesupremecmdr.tumblr.com
 
 # Partners information. Shown on Home and About pages.
 partners:
