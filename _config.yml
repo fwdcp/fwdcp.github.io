@@ -72,7 +72,7 @@ partners:
   - name: TeamFortressTV
     img: teamfortresstv.png
     social:
-      - title: link
+      - title: external-link
         url: http://teamfortress.tv
       - title: twitter
         url: http://twitter.com/teamfortresstv
