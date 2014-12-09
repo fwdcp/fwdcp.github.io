@@ -5,7 +5,7 @@ contributors:
 - thesupremecommander
 categories:
 - project             #important: leave this here
-img: statusspecpause.png
+img: statusspec.png
 # thumb:
 # carousel:
 # - #place image (1280x600) with this name in /assets/img/project/carousel/
