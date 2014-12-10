@@ -187,3 +187,7 @@ Here's the general credits for the project:
 * *Concept Artists:* uberchain, kichizone, Fudge
 * *Reskin Artists:* uberchain, The Scurvy Orange, Fudge, DillyDong, Colteh
 * *Special Thanks:* Mikahvi, ZeroAE, Liz, SedimentarySocks, [TeamFortress.TV](http://teamfortress.tv/), [TF2 Texture Improvement Project](http://tf2tip.maxofs2d.net/), [Team eLevate](http://elevate.gg/), [froyotech](http://www.froyotech.tv/), [Classic Mixup](http://play.esea.net/teams/51672), [Street Hoops eSports](http://play.esea.net/teams/74241)
+
+#### How do I ask other questions?
+
+You can contact me via Steam, Twitter, or TeamFortress.TV - I'll be happy to answer questions to the best of my ability.
