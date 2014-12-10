@@ -8,8 +8,15 @@ categories:
 - project             #important: leave this here
 img: unireform.png
 # thumb:
-# carousel:
-# - #place image (1280x600) with this name in /assets/img/project/carousel/
+carousel:
+- unireform/froyotech_RED.jpg
+- unireform/froyotech_BLU.jpg
+- unireform/elevate_RED.jpg
+- unireform/elevate_BLU.jpg
+- unireform/classicmixup_RED.jpg
+- unireform/classicmixup_BLU.jpg
+- unireform/streethoops_RED.jpg
+- unireform/streethoops_BLU.jpg
 # partner:
 website: http://github.com/fwdcp/UniREform
 ---
