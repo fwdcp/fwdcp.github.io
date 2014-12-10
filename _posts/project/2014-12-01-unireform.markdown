@@ -9,6 +9,7 @@ categories:
 img: unireform.png
 # thumb:
 carousel:
+- unireform/lanposter.png
 - unireform/froyotech_RED.jpg
 - unireform/froyotech_BLU.jpg
 - unireform/elevate_RED.jpg
