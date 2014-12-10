@@ -126,6 +126,26 @@ uberchain then delivered the following concepts to me (which were shared with bo
 
 Hopefully these concepts give you a little more insight into the general design of the skins. For more information, you'd have to contact uberchain.
 
+#### Are there posters for these skins?
+
+Yes, there are! uberchain designed some sweet posters for each of the teams in both RED and BLU variants, which you can get in both 4K and 1080p below:
+
+![froyotech](/assets/img/other/unireform/posters/1920x1080/froyotech_RED.jpg)
+*download froyotech team poster: [RED 3820x2148](/assets/img/other/unireform/posters/3820x2148/froyotech_RED.jpg), [RED 1920x1080](/assets/img/other/unireform/posters/1920x1080/froyotech_RED.jpg), [BLU 3820x2148](/assets/img/other/unireform/posters/3820x2148/froyotech_BLU.jpg), [BLU 1920x1080](/assets/img/other/unireform/posters/1920x1080/froyotech_BLU.jpg)*
+
+![Team eLevate](/assets/img/other/unireform/posters/1920x1080/elevate_RED.jpg)
+*download Team eLevate team poster: [RED 3820x2148](/assets/img/other/unireform/posters/3820x2148/elevate_RED.jpg), [RED 1920x1080](/assets/img/other/unireform/posters/1920x1080/elevate_RED.jpg), [BLU 3820x2148](/assets/img/other/unireform/posters/3820x2148/elevate_BLU.jpg), [BLU 1920x1080](/assets/img/other/unireform/posters/1920x1080/elevate_BLU.jpg)*
+
+![Classic Mixup](/assets/img/other/unireform/posters/1920x1080/classicmixup_RED.jpg)
+*download Classic Mixup team poster: [RED 3820x2148](/assets/img/other/unireform/posters/3820x2148/classicmixup_RED.jpg), [RED 1920x1080](/assets/img/other/unireform/posters/1920x1080/classicmixup_RED.jpg), [BLU 3820x2148](/assets/img/other/unireform/posters/3820x2148/classicmixup_BLU.jpg), [BLU 1920x1080](/assets/img/other/unireform/posters/1920x1080/classicmixup_BLU.jpg)*
+
+![Street Hoops eSports](/assets/img/other/unireform/posters/1920x1080/streethoops_RED.jpg)
+*download Street Hoops eSports team poster: [RED 3820x2148](/assets/img/other/unireform/posters/3820x2148/streethoops_RED.jpg), [RED 1920x1080](/assets/img/other/unireform/posters/1920x1080/streethoops_RED.jpg), [BLU 3820x2148](/assets/img/other/unireform/posters/3820x2148/streethoops_BLU.jpg), [BLU 1920x1080](/assets/img/other/unireform/posters/1920x1080/streethoops_BLU.jpg)*
+
+There is an additional ESEA LAN poster available:
+![ESEA LAN](/assets/img/other/unireform/posters/1920x1080/esealan_wallpaper.jpg)
+*download ESEA LAN poster: [1920x1080](/assets/img/other/unireform/posters/1920x1080/esealan_wallpaper.jpg)*
+
 #### Can I get these skins?
 
 Yes! We will be releasing them on the [Project UniREform GitHub](http://github.com/fwdcp/UniREform). From there you will be able to download VPKs for each of the teams.
@@ -160,7 +180,7 @@ We have created [a Google Forms survey](http://goo.gl/forms/T6RpJH4jyJ) which yo
 
 #### Who should I direct my appreciation to?
 
-**uberchain** is really the one person who you should thank - without her, none of this would have ever happened.
+uberchain is really the one person who you should thank - without her, none of this would have ever happened.
 
 Here's the general credits for the project:
 
