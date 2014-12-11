@@ -148,7 +148,7 @@ There is an additional ESEA LAN poster available:
 
 #### Can I get these skins?
 
-Yes! We will be releasing them on the [Project UniREform GitHub](http://github.com/fwdcp/UniREform). From there you will be able to download VPKs for each of the teams.
+Yes! All skins will be posted on the [Project UniREform GitHub](http://github.com/fwdcp/UniREform). For skins from this LAN, you will be able to download them from the [LAN release page](https://github.com/fwdcp/UniREform/releases/tag/esea-lan-s17).
 
 #### How will I be able to use these skins?
 
