@@ -5,6 +5,11 @@ date: 2014-12-10 12:00:00
 author: thesupremecommander
 categories:
 - blog                #important: leave this here
+- Project Info
+tags:
+- ESEA
+- FAQ
+- UniREform
 img: unireform.png       #place image (850x450) with this name in /assets/img/blog/
 thumb: unireform.png    #place thumbnail (70x70) with this name in /assets/img/blog/thumbs/
 ---
