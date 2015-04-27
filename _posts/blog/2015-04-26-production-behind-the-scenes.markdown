@@ -48,7 +48,7 @@ Another huge leap for TF2 production came in the form of live graphics. Traditio
 
 bluee (who had worked on some of the graphics for TeamFortress.TV) approached Alex "Lange" Van Camp (who worked on the Tip of the Hats system) with the idea of creating a generalized framework out of the separate overlay systems, which would allow for live graphics to be easily created by Web technologies as compared to Flash (required for CasparCG). Thus, the project [NodeCG](https://github.com/nodecg/nodecg) was born, and has grown in usage not only in TF2 productions but in many other contexts, like the major Twitch stream Dan's Gaming.
 
-NodeCG has become a crucial component in productions for many reasons, most significantly simple integration with [Open Broadcaster Software](https://obsproject.com/), the streaming application used by the vast majority of TF2 streamers. In addition, the relative ease of creating graphics has allowed live graphics to be easily adapted to the changing requirements of production.
+NodeCG has become a crucial component in productions for many reasons, most significantly simple integration with [Open Broadcaster Software](https://obsproject.com/), the streaming application used by the vast majority of TF2 streamers. In addition, the relative ease of creating graphics has allowed live graphics to be easily adapted to the changing requirements of production. Many different NodeCG bundles are used by TeamFortress.TV today, including various types of alerts, an updated port of the original match overlay, a social media display, a scoreboard bug, a transition helper, a "now playing" overlay, and a credits roll.
 
 ### Creating a Storyline
 
@@ -79,3 +79,7 @@ In any case, it's clear: with the top level of the scene becoming even more comp
 mana summarizes the situation best:
 
 > There's a lot to a streamed cast than it may seem on the surface. Streams have come an incredibly long way thanks to huge efforts of everyone involved in streaming technologies. The right pickups on TeamFortressTV have created a formidable potency of backend code and assets that literally has done things we would've never imagined before. Experience has culminated to handle what we've made into enhancing the stream. [The recent ESEA Season 18 LAN] has been, by far, the best production we've done, integrating not only an improved stream, but also on site video and photos, which is unprecedented. I'm very proud of the production team and its accomplishments; to hear that we rival some major streams in quality is a testament to the incredible collaborative power that the team has.
+
+-----
+
+*credits to Austen "tagg" Wade, who provided the [featured image](https://www.flickr.com/photos/19898225@N04/14920172453/in/set-72157648554288576); Alex "dashner" Pylyshyn, who provided the production screenshots in the article body; everyone interviewed for the article, for their detailed responses which helped to set the tone of this article; TeamFortress.TV, for allowing me to publish this article on their front page; the entire competitive scene, for supporting us in our efforts to cover it; and the entire production staff, for being tireless in raising the bar for game productions everywhere*
