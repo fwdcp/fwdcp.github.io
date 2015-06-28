@@ -85,6 +85,19 @@ partners:
     social:
       - title: external-link
         url: http://teamfortress.tv
+  - name: b4nny
+    img: b4nny.png
+    social:
+      - title: steam
+        url: http://steamcommunity.com/id/b4nny
+      - title: twitch
+        url: http://twitch.tv/b4nny
+      - title: youtube
+        url: http://youtube.com/gavinc27
+      - title: twitter
+        url: http://twitter.com/uberchain
+      - title: soundcloud
+        url: http://soundcloud.com/gavinc-1
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Forward Command Post is a group dedicated to improving the gaming experience, currently focused on Team Fortress 2."
