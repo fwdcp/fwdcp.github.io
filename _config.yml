@@ -64,13 +64,15 @@ members:
         url: http://twitch.tv/thesupremecommander
   - name: Ness 'uberchain' Delacroix
     position: Artist & Animator
-    text: uberchain comes from a strong background of illustration and design with tenacity and enthusiasm - a zeal that contributes to their video editing, animation, and graphic design talents.
+    text: uberchain comes from a strong background of illustration and design with tenacity and enthusiasm - a zeal that contributes to her video editing, animation, and graphic design talents.
     img: uberchain.png
     social:
       - title: steam
         url: http://steamcommunity.com/id/spameidareyou
       - title: deviantart
         url: http://uberchain.deviantart.com
+      - title: tumblr
+        url: http://uberchain.tumblr.com
       - title: twitter
         url: http://twitter.com/uberchain
       - title: youtube
