@@ -17,5 +17,3 @@ social:
 thesupremecommander is distinguished for his passion, dedication, experience, and skill, which when combined become a potent force allowing him to seek out solutions to novel and complex technical problems.
 
 <!--more-->
-
-help
