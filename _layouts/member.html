@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% include wrap.html %}
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-8">
+
+            {{ content }}
+
+            <div class="spacing"></div>
+        </div>
+        <div class="col-lg-4">
+            <h4>Member Info</h4>
+            <div class="hline"></div>
+            <p><img class="img-sidebar" src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ page.img }}"></p>
+            <p><b>Role:</b> {{ page.role }}</p>
+            <p><b>Projects:</b></p>
+            <ul>
+            {% for project in site.projects %}{% if project.contributors contains page.title %}
+                <li><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></li>
+            {% endif %}{% endfor %}
+            </ul>
+            <p><b>Links:</b></p>
+            <p class="social">
+                {% for network in page.social %}
+                    <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
+                {% endfor %}
+            </p>
+        </div>
+    </div><! --/row -->
+</div><! --/container -->

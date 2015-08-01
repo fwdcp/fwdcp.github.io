@@ -473,3 +473,25 @@ a.anchor{
     top: -80px;
     visibility: hidden;
 }
+
+/* custom */
+.social i {
+	font-size: 30px;
+	color: #384452;
+	padding-right: 25px;
+}
+
+.social i:hover {
+	color: #00b3fe;
+}
+
+.img-sidebar {
+	display: block;
+	max-width: 50%;
+	height: auto;
+	margin: auto;
+}
+
+li {
+    list-style-position: inside;
+}

@@ -19,8 +19,12 @@ layout: default
             <div class="spacing"></div>
             <h4>Project Details</h4>
             <div class="hline"></div>
-            <p><b>Contributors:</b> {{ page.contributors | array_to_sentence_string }}</p>
-            <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
+            <p><b>Contributors:</b></p>
+            <ul>
+            {% for contributor in page.contributors %}{% for member in site.members %}{% if contributor == member.title %}
+                <li><a href="{{ member.url | prepend: site.baseurl }}">{{ member.title }}</a></li>
+            {% endif %}{% endfor %}{% endfor %}
+            </ul>
         </div>
     </div><! --/row -->
 </div><! --/container -->

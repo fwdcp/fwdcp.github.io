@@ -22,6 +22,8 @@ colors:  #in hex code if not noted else
   footer_content: "#bfc9d3"
 
 collections:
+  members:
+    output: true
   projects:
     output: true
 
@@ -34,6 +36,10 @@ defaults:
       type: projects
     values:
       layout: project
+  - scope:
+      type: members
+    values:
+      layout: member
 
 ### CONTACT SETTINGS ###
 
@@ -57,41 +63,7 @@ social:
 email: forwardcommandpost@gmail.com
 # tel:
 
-
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
-
-# Members information. Shown on About page.
-members:
-  - name: thesupremecommander
-    position: Founder & Developer
-    text: thesupremecommander is distinguished for his passion, dedication, experience, and skill, which when combined become a potent force allowing him to seek out solutions to novel and complex technical problems.
-    img: thesupremecommander.jpg
-    social:
-      - title: steam
-        url: https://steamcommunity.com/id/thesupremecommander
-      - title: envelope
-        url: mailto:thesupremecmdr@gmail.com
-      - title: github
-        url: https://github.com/thesupremecommander
-      - title: twitter
-        url: https://twitter.com/thesupremecmdr
-      - title: twitch
-        url: http://twitch.tv/thesupremecommander
-  - name: Ness 'uberchain' Delacroix
-    position: Artist & Animator
-    text: uberchain comes from a strong background of illustration and design with tenacity and enthusiasm - a zeal that contributes to her video editing, animation, and graphic design talents.
-    img: uberchain.png
-    social:
-      - title: steam
-        url: https://steamcommunity.com/id/spameidareyou
-      - title: deviantart
-        url: https://uberchain.deviantart.com
-      - title: tumblr
-        url: http://uberchain.tumblr.com
-      - title: twitter
-        url: https://twitter.com/uberchain
-      - title: youtube
-        url: https://youtube.com/uberchainyt
 
 # Partners information. Shown on Home and About pages.
 partners:
