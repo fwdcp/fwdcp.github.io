@@ -67,11 +67,11 @@ email: forwardcommandpost@gmail.com
 
 # Partners information. Shown on Home and About pages.
 partners:
-  - name: TeamFortressTV
+  - name: teamfortress.tv
     img: teamfortresstv.png
     social:
       - title: external-link
-        url: http://teamfortress.tv
+        url: http://www.teamfortress.tv/
   - name: b4nny
     img: b4nny.png
     social:
