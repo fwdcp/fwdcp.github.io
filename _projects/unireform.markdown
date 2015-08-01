@@ -1,11 +1,8 @@
 ---
-layout: project       #important: don't change this
 title:  "Project UniREform"
 contributors:
 - uberchain
 - thesupremecommander
-categories:
-- project             #important: leave this here
 img: unireform.png
 # thumb:
 carousel:

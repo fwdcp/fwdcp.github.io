@@ -1,10 +1,7 @@
 ---
-layout: project       #important: don't change this
 title:  "StatusSpec"
 contributors:
 - thesupremecommander
-categories:
-- project             #important: leave this here
 img: statusspec.png
 # thumb:
 # carousel:

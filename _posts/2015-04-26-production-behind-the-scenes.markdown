@@ -4,8 +4,7 @@ title: "Behind the Scenes: TF2 Production"
 date: 2015-04-27 12:00:00
 author: thesupremecommander
 categories:
-- blog                #important: leave this here
-- behind the scenes
+- behind-the-scenes
 tags:
 - AdvSpec
 - NodeCG

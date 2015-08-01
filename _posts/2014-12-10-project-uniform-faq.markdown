@@ -4,8 +4,7 @@ title: "Project UniREform: ESEA Season 17 LAN Team Skins FAQ"
 date: 2014-12-10 12:00:00
 author: thesupremecommander
 categories:
-- blog                #important: leave this here
-- Project Info
+- projects
 tags:
 - ESEA
 - FAQ
