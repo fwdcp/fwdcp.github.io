@@ -495,3 +495,13 @@ a.anchor{
 li {
     list-style-position: inside;
 }
+
+.member a {
+	color: #384452;
+}
+
+.member a:hover,
+.member a:focus {
+  	text-decoration: none;
+  	color: #01b2fe;
+}
