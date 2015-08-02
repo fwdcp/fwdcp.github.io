@@ -1,5 +1,4 @@
 ---
-layout: post          #important: don't change this
 title: "Project UniREform: ESEA Season 17 LAN Team Skins FAQ"
 date: 2014-12-10 12:00:00
 author: thesupremecommander

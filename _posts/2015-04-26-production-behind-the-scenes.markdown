@@ -1,5 +1,4 @@
 ---
-layout: post          #important: don't change this
 title: "Behind the Scenes: TF2 Production"
 date: 2015-04-27 12:00:00
 author: thesupremecommander
