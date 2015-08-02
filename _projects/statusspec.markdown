@@ -2,6 +2,7 @@
 title:  "StatusSpec"
 contributors:
 - thesupremecommander
+date: 2014-05-07
 img: statusspec.png
 # thumb:
 # carousel:

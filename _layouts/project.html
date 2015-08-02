@@ -6,14 +6,12 @@ layout: default
 
 <div class="container mt">
     <div class="row">
-
         {% include carousel.html %}
 
         <div class="col-lg-5 col-lg-offset-1">
             <div class="spacing"></div>
 
             {{ content }}
-
         </div>
         <div class="col-lg-4 col-lg-offset-1">
             <div class="spacing"></div>
@@ -29,4 +27,4 @@ layout: default
     </div><! --/row -->
 </div><! --/container -->
 
-{% include portfolio.html title="Other Projects" limit=5 %}
+{% include portfolio.html title="Other Projects" recent=true limit=5 %}
