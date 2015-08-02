@@ -24,18 +24,16 @@ colors:  #in hex code if not noted else
 collections:
   members:
     output: true
+    permalink: /members/:path/
   projects:
     output: true
+    permalink: /projects/:path/
 
 defaults:
   - scope:
       type: posts
     values:
       layout: post
-  - scope:
-      type: projects
-    values:
-      layout: project
   - scope:
       type: members
     values:
