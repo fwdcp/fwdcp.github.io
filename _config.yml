@@ -51,12 +51,8 @@ social:
     url: https://steamcommunity.com/groups/fwdcp
   - title: github
     url: https://github.com/fwdcp
-  - title: trello
-    url: https://trello.com/forwardcommandpost
-  - title: paypal
-    url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZJAZP9L4A6RHJ
-  - title: slack
-    url: https://fwdcp.slack.com
+  - title: twitter
+    url: https://twitter.com/fwdcp_
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 # address:
