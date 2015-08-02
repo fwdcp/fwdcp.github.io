@@ -10,7 +10,7 @@ tags:
 - NodeCG
 - production
 - StatusSpec
-- TeamFortress.TV
+- teamfortress.tv
 - UniREform
 img: btsproduction.png       #place image (850x450) with this name in /assets/img/blog/
 thumb: btsproduction.png    #place thumbnail (70x70) with this name in /assets/img/blog/thumbs/
