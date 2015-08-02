@@ -1,16 +1,15 @@
 ---
 layout: blog
 title: Blog
-permalink: /blog/
 ---
 
 <div class="container mtb">
     <div class="row">
 
         <! -- BLOG POSTS LIST -->
-        <div class="col-lg-8">
+        <div class="col-lg-6 col-lg-offset-1">
 
-            {% for post in site.posts %}
+            {% for post in paginator.posts %}
                 <! -- Blog Post -->
                 <a href="{{ post.url | prepend: site.baseurl }}">
                     <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
@@ -24,7 +23,18 @@ permalink: /blog/
                 <div class="spacing"></div>
             {% endfor %}
 
-        </div><! --/col-lg-8 -->
+            <nav>
+                <ul class="pager">
+                    {% if paginator.previous_page %}
+                        <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a></li>
+                    {% endif %}
+                    {% if paginator.next_page %}
+                        <li><a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a></li>
+                    {% endif %}
+                </ul>
+            </nav>
+
+        </div><! --/col-lg-6 -->
 
         {% include sidebar.html %}
 
