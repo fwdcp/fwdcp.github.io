@@ -32,10 +32,10 @@ Currently uberchain serves as the lead animator for [teamfortress.tv](http://www
 
 Other positions of note include:
 
-* lead coordinator, [TF2can](https://steamcommunity.com/groups/tf2can-org)
+* lead coordinator & animator, [TF2can](https://steamcommunity.com/groups/tf2can-org)
 * lead animator, [Tip of the Hats](http://tipofthehats.org/)
 * lead animator, [EVL Battle Royale](http://evlbr.com/)
-* lead admin, [Competitive TF2 Tumblr](http://competitivetf2.tumblr.com/)
+* co-founder & admin, [Competitive TF2 Tumblr](http://competitivetf2.tumblr.com/)
 * co-admin, [SFM Poster Tips](http://sfm-poster-tips.tumblr.com/)
 * moderator, [Kritzkast's stream](http://www.weav.tv/#/KritzKast/live)
 * moderator, [The Train Yard](https://steamcommunity.com/groups/thetrainyard )
