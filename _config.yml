@@ -38,6 +38,10 @@ defaults:
       type: members
     values:
       layout: member
+  - scope:
+      type: projects
+    values:
+      layout: project
 
 ### CONTACT SETTINGS ###
 
