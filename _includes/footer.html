@@ -1,20 +1,36 @@
-<div id="footerwrap">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <h4>About</h4>
-                <div class="hline-w"></div>
-                <p>{{ site.about }}</p>
-            </div>
-            <div class="col-lg-6">
-                <h4>Forward Command Post Elsewhere</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for network in site.social %}
-                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
-                    {% endfor %}
-                </p>
-            </div>
-        </div><! --/row -->
-    </div><! --/container -->
-</div><! --/footerwrap -->
+<footer id="footer">
+	<div class="inner">
+		<section>
+			<h2>Get in touch</h2>
+			<form method="post" action="//formspree.io/forwardcommandpost@gmail.com">
+				<div class="field half first">
+					<input type="text" name="name" id="name" placeholder="Name" />
+				</div>
+				<div class="field half">
+					<input type="email" name="_replyto" id="email" placeholder="Email" />
+				</div>
+				<div class="field">
+					<textarea name="_subject" id="subject" placeholder="Subject"></textarea>
+				</div>
+				<div class="field">
+					<textarea name="message" id="message" placeholder="Message"></textarea>
+				</div>
+				<ul class="actions">
+                    <input type="text" name="_gotcha" style="display: none;" />
+					<li><input type="submit" value="Send" class="special" /></li>
+				</ul>
+			</form>
+		</section>
+		<section>
+			<h2>Follow</h2>
+			<ul class="icons">
+                {% for network in site.social %}
+		            <li><a href="{{ network.url }}" class="icon style2 fa-{{ network.type }}"><span class="label">{{ network.title }}</span></a></li>
+				{% endfor %}
+			</ul>
+		</section>
+		<ul class="copyright">
+			<li>&copy; Forward Command Post. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+		</ul>
+	</div>
+</footer>

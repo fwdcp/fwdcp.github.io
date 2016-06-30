@@ -1,28 +1,9 @@
-### GENERAL SETTINGS ###
-
-# Site settings
 title: Forward Command Post
 description: "Forward Command Post is a group dedicated to improving the gaming experience, currently focused on Team Fortress 2."
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "" #important: start with /
+baseurl: ""
 url: "http://fwdcp.net"
 
-# Build settings
 markdown: kramdown
-permalink: /blog/:categories/:title
-excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
-
-paginate: 5
-paginate_path: "/blog/:num/"
-
-colors:  #in hex code if not noted else
-  primary: "#00b3fe" #"#F70031"
-  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
-  secondary: "#384452" #"#33004D"
-  link: "#428bca"
-  link_hover: "#01b2fe"
-  footer_heading: "#ffffff"
-  footer_content: "#bfc9d3"
 
 collections:
   members:
@@ -46,52 +27,13 @@ defaults:
     values:
       layout: project
 
-### CONTACT SETTINGS ###
-
-# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: steam
-    url: https://steamcommunity.com/groups/fwdcp
-  - title: github
+  - type: github
+    title: GitHub
     url: https://github.com/fwdcp
-  - title: twitter
+  - type: steam
+    title: Steam
+    url: https://steamcommunity.com/groups/fwdcp
+  - type: twitter
+    title: Twitter
     url: https://twitter.com/fwdcp_
-
-# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-# address:
-  # - lines:
-    # -
-email: forwardcommandpost@gmail.com
-# tel:
-
-### GENERAL DATA FOR VARIOUS LOCATIONS ###
-
-# Partners information. Shown on Home and About pages.
-partners:
-  - name: teamfortress.tv
-    img: teamfortresstv.png
-    social:
-      - title: external-link
-        url: http://www.teamfortress.tv/
-  - name: b4nny
-    img: b4nny.png
-    social:
-      - title: steam
-        url: https://steamcommunity.com/id/b4nny
-      - title: twitch
-        url: http://twitch.tv/b4nny
-      - title: youtube
-        url: https://youtube.com/gavinc27
-      - title: twitter
-        url: https://twitter.com/GrantVincent27
-      - title: soundcloud
-        url: https://soundcloud.com/gavinc-1
-
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Forward Command Post is a group dedicated to improving the gaming experience, currently focused on Team Fortress 2."
-
-# Testimonial content. Shown on Home and About page.
-# testimonial:
-    # message:
-    # author:
-    # position:

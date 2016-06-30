@@ -2,29 +2,21 @@
 layout: default
 ---
 
-{% include wrap.html %}
-
-<div class="container mt">
-    <div class="row">
-        {% include carousel.html %}
-
-        <div class="col-lg-6 col-lg-offset-1">
-            <div class="spacing"></div>
-
-            {{ content }}
-        </div>
-        <div class="col-lg-4">
-            <div class="spacing"></div>
-            <h4>Project Details</h4>
-            <div class="hline"></div>
-            <p><b>Contributors:</b></p>
-            <ul>
-            {% for contributor in page.contributors %}{% for member in site.members %}{% if contributor == member.title %}
-                <li><a href="{{ member.url | prepend: site.baseurl }}">{{ member.title }}</a></li>
-            {% endif %}{% endfor %}{% endfor %}
-            </ul>
-        </div>
-    </div><! --/row -->
-</div><! --/container -->
-
-{% include portfolio.html title="Other Projects" recent=true limit=5 %}
+<div class="row uniform">
+    <div class="9u 12u$(small)">
+        {{ content }}
+    </div>
+    <div class="3u$ 12u$(small) important(small)">
+        {% if page.website %}
+            <h4><a href="{{ page.website }}">Website</h4>
+        {% endif %}
+        <h4>Contributors</h4>
+        <ul>
+            {% for member in (site.members | sort: 'title') %}
+                {% if page.contributors contains member.slug %}
+                    <li><a href="{{ member.url }}">{{ member.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</div>

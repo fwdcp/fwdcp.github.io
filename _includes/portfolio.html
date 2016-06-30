@@ -1,21 +1,15 @@
-<div id="portfoliowrap">
-    <div class="portfolio-centered">
-        {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
-        {% if include.recent %}{% assign projects = site.projects | sort: 'date' | reverse %}{% else %}{% assign projects = site.projects %}{% endif %}
-        <div class="recentitems portfolio">
-            {% for project in projects limit:include.limit %}
-                <div class="portfolio-item graphic-design">
-                    <div class="he-wrap tpl6">
-                    <img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ project.img }}" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">{{ project.title }}</h3>
-                                <a href="{{  project.url | prepend: site.baseurl }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-eye"></i></a>
-                            </div><!-- he bg -->
-                        </div><!-- he view -->
-                    </div><!-- he wrap -->
-                </div><!-- end col-12 -->
-            {% endfor %}
-        </div><!-- portfolio -->
-    </div><!-- portfolio container -->
-</div><!--/Portfoliowrap -->
+<section class="tiles">
+    {% assign projects = site.projects | sort: 'date' | reverse %}
+    {% for project in projects %}
+    	<article class="{{ 'style1 style2 style3 style4 style5 style6' | split: ' ' | sample }}">
+    		<span class="image">
+    			<img src="{{ "/assets/img/projects/" | append: project.img | prepend: site.baseurl }}" alt="" />
+    		</span>
+    		<a href="{{ project.url | prepend: site.baseurl }}">
+    			<h2>{{ project.title }}</h2>
+    			<div class="content">
+    				<p>{{ project.description }}</p>
+    			</div>
+    		</a>
+    	</article>
+    {% endfor %}</section>

@@ -2,30 +2,32 @@
 layout: default
 ---
 
-{% include wrap.html %}
-
-<div class="container mtb">
-    <div class="row">
-        <div class="col-lg-6 col-lg-offset-1">
-            {{ content }}
-        </div>
-        <div class="col-lg-4">
-            <h4>Member Info</h4>
-            <div class="hline"></div>
-            <p><img class="img-sidebar" src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ page.img }}"></p>
-            <p><b>Role:</b> {{ page.role }}</p>
-            <p><b>Projects:</b></p>
-            <ul>
-            {% for project in site.projects %}{% if project.contributors contains page.title %}
-                <li><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></li>
-            {% endif %}{% endfor %}
-            </ul>
-            <p><b>Links:</b></p>
-            <p class="social">
-                {% for network in page.social %}
-                    <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
-                {% endfor %}
-            </p>
-        </div>
-    </div><! --/row -->
-</div><! --/container -->
+<div class="row uniform">
+    <div class="9u 12u$(small)">
+        {{ content }}
+    </div>
+    <div class="3u$ 12u$(small) important(small)">
+        <span class="image fit"><img src="{{ "/assets/img/members/" | append: page.img | prepend: site.baseurl }}" alt="" /></span>
+        <h3>{{ page.role }}</h3>
+        <ul class="icons">
+            {% for network in page.social %}
+                <li><a href="{{ network.url }}" class="icon style1 fa-{{ network.type }}"><span class="label">{{ network.title }}</span></a></li>
+            {% endfor %}
+        </ul>
+        <h4>Projects</h4>
+        <ul>
+            {% assign projects = site.projects | sort: 'date' | reverse %}
+            {% for project in projects %}
+                {% if project.contributors contains page.slug %}
+                    <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <h4>Other Engagements</h4>
+        <ul>
+            {% for engagement in page.engagements %}
+                <li>{{ engagement.role }}, <a href="{{ engagement.url }}">{{ engagement.org }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

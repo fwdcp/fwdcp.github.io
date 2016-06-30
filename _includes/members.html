@@ -1,15 +1,15 @@
-<div class="container mtb">
-    <div class="row centered">
-        <h3 class="mb">MEET OUR TEAM</h3>
-
-        {% for member in site.members %}
-        <div class="col-lg-3 col-md-3 col-sm-3">
-            <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="{{ member.title }}" />
-            <h4 class="member"><a href="{{ member.url | prepend: site.baseurl }}">{{ member.title }}</a></h4>
-            <h5 class="ctitle">{{ member.role }}</h5>
-            <div class="hline"></div>
-        </div><! --/col-lg-3 -->
-        {% endfor %}
-
-    </div><! --/row -->
-</div><! --/container -->
+<section class="tiles">
+    {% for member in (site.members | sort: 'title') %}
+    	<article class="{{ 'style1 style2 style3 style4 style5 style6' | split: ' ' | sample }}">
+    		<span class="image">
+    			<img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="" />
+    		</span>
+    		<a href="{{ member.url | prepend: site.baseurl }}">
+    			<h2>{{ member.title }}</h2>
+    			<div class="content">
+    				<p>{{ member.role }}</p>
+    			</div>
+    		</a>
+    	</article>
+    {% endfor %}
+</section>
