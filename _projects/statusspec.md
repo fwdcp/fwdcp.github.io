@@ -1,5 +1,6 @@
 ---
 title: "StatusSpec"
+description: "the spectator plugin to rule them all"
 contributors:
 - thesupremecommander
 date: 2014-05-07

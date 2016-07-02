@@ -1,5 +1,6 @@
 ---
 title: "b4nnyBot"
+description: "a well-connected Twitch chat bot"
 contributors:
 - thesupremecommander
 date: 2015-05-18
