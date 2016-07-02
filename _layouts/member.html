@@ -16,7 +16,7 @@ layout: default
         </ul>
         <h4>Projects</h4>
         <ul>
-            {% assign projects = site.projects | sort: 'date' | reverse %}
+            {% assign projects = site.projects | sort: 'slug' %}
             {% for project in projects %}
                 {% if project.contributors contains page.slug %}
                     <li><a href="{{ project.url }}">{{ project.title }}</a></li>
