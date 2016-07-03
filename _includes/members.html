@@ -1,12 +1,12 @@
 <section class="tiles">
     {% for member in (site.members | sort: 'title') %}
-    	<article class="{{ 'style1 style2 style3 style4 style5 style6' | split: ' ' | sample }}">
+    	<article>
     		<span class="image">
     			<img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="" />
     		</span>
     		<a href="{{ member.url | prepend: site.baseurl }}">
-    			<h2>{{ member.title }}</h2>
     			<div class="content">
+                    <h2>{{ member.title }}</h2>
     				<p>{{ member.role }}</p>
     			</div>
     		</a>

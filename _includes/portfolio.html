@@ -1,13 +1,13 @@
 <section class="tiles">
     {% assign projects = site.projects | sort: 'date' | reverse %}
     {% for project in projects %}
-    	<article class="{{ 'style1 style2 style3 style4 style5 style6' | split: ' ' | sample }}">
+    	<article>
     		<span class="image">
     			<img src="{{ "/assets/img/projects/" | append: project.img | prepend: site.baseurl }}" alt="" />
     		</span>
     		<a href="{{ project.url | prepend: site.baseurl }}">
-    			<h2>{{ project.title }}</h2>
     			<div class="content">
+                    <h2>{{ project.title }}</h2>
     				<p>{{ project.description }}</p>
     			</div>
     		</a>
