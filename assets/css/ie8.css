@@ -21,7 +21,7 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    border-color: #7ecaf6 !important; }
+    border-color: #00ff00 !important; }
   input[type="submit"].special,
   input[type="reset"].special,
   input[type="button"].special,
